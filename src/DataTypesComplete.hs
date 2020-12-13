@@ -83,7 +83,7 @@ data Task3 = BasicTask3
   }
 
 twiceLength :: Task3 -> Int
-twiceLength task = 2 * (taskLength task)
+twiceLength task = 2 * taskLength task
 
 capitalizedName :: Task3 -> String
 capitalizedName task = map toUpper (taskName task)
@@ -145,7 +145,7 @@ makeTupleBigger (intValue, stringValue, BasicTask3 name len) =
 type Task5 = (String, Int)
 
 twiceTaskLength :: Task5 -> Int
-twiceTaskLength task = 2 * (snd task)
+twiceTaskLength task = 2 * snd task
 
 newtype TaskLength2 = TaskLength2
   { unTaskLength :: Int }

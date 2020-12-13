@@ -17,6 +17,7 @@ library
   hs-source-dirs:      src
   exposed-modules:
       MyFirstModule
+    , Syntax
     , SyntaxComplete
     , DataTypesComplete
   build-depends:       base >= 4.7 && < 5
